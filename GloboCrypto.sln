@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboCrypto.WebAPI", "GloboCrypto.WebAPI\GloboCrypto.WebAPI.csproj", "{E7322EED-9A06-4372-8098-814740366D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GloboCrypto.WebAPI", "GloboCrypto.WebAPI\GloboCrypto.WebAPI.csproj", "{E7322EED-9A06-4372-8098-814740366D2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboCrypto.Models", "GloboCrypto.Models\GloboCrypto.Models.csproj", "{792C2990-C722-4556-901D-7BB76283227B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GloboCrypto.Models", "GloboCrypto.Models\GloboCrypto.Models.csproj", "{792C2990-C722-4556-901D-7BB76283227B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboCrypto.WebAPI.Services", "GloboCrypto.WebAPI.Services\GloboCrypto.WebAPI.Services.csproj", "{F3E13B3F-F426-44C3-8CF8-8558824DA2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboCrypto.Tests", "GloboCrypto.Tests\GloboCrypto.Tests.csproj", "{DC476A5A-AD99-4F1B-A763-EF12167CC6EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboCrypto.PWA", "GloboCrypto.PWA\GloboCrypto.PWA.csproj", "{CF1EB791-5A31-47F7-89CF-A66A0245C2D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboCrypto.CoinMonitor", "GloboCrypto.CoinMonitor\GloboCrypto.CoinMonitor.csproj", "{4F4B0F73-43A1-4506-B567-A08D1F2DD2EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{792C2990-C722-4556-901D-7BB76283227B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{792C2990-C722-4556-901D-7BB76283227B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{792C2990-C722-4556-901D-7BB76283227B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E13B3F-F426-44C3-8CF8-8558824DA2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E13B3F-F426-44C3-8CF8-8558824DA2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E13B3F-F426-44C3-8CF8-8558824DA2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E13B3F-F426-44C3-8CF8-8558824DA2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC476A5A-AD99-4F1B-A763-EF12167CC6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC476A5A-AD99-4F1B-A763-EF12167CC6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC476A5A-AD99-4F1B-A763-EF12167CC6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC476A5A-AD99-4F1B-A763-EF12167CC6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1EB791-5A31-47F7-89CF-A66A0245C2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1EB791-5A31-47F7-89CF-A66A0245C2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1EB791-5A31-47F7-89CF-A66A0245C2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1EB791-5A31-47F7-89CF-A66A0245C2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F4B0F73-43A1-4506-B567-A08D1F2DD2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4B0F73-43A1-4506-B567-A08D1F2DD2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4B0F73-43A1-4506-B567-A08D1F2DD2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4B0F73-43A1-4506-B567-A08D1F2DD2EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
