@@ -22,9 +22,9 @@ namespace GloboCrypto.WebAPI.Services.Notifications
 
         public async Task SendAsync(string coinId, string message)
         {
-            var subject = "mailto:steve-reteamlabs@gmail.com";
-            var publicKey = "BBCdWc-g92B4hcMCLwlZAEs49k52NzvcJiLIfrkGmulGm2-HIcduBXbHvA7WwkbJLz3nCGwCjpI7pkZkF3Qt3So";
-            var privateKey = "WfeZokELwNc_uh0HxWGqPr_aAJ80FWNTvQdAO8bkfyo";
+            var subject = "mailto: <pgadea7@protonmail.com>";
+            var publicKey = "BDw_UfmrLPew1lxzc6pCwnk702wIVSgw1JECJRFbTA7S9L_kriidg6XASZsvBJWkrHNUWjpi-_YId2E2eReZt88";
+            var privateKey = "MGgIg9a0PWmAwjISgkkPjHYj0DoCf1O5QTG38792zGA";
 
             var coinInfo = await CoinService.GetCoinInfo(coinId);
             var subs = LocalDb.Query<NotificationSubscription>(sub => sub.CoinIds.Contains(coinId)).ToList();
