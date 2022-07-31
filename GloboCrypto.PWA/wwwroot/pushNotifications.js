@@ -1,6 +1,6 @@
 ﻿(function () {
     // Note: Replace with your own key pair before deploying
-    const applicationServerPublicKey = 'BKjV-c7htxO70x6ItGluZYJme0cIvVyGB10xXF0oPmIqxes328NfF1bn2DexPiDc6rpTIRG4y_v2ykdpDJiq5c4';
+    const applicationServerPublicKey = 'BDw_UfmrLPew1lxzc6pCwnk702wIVSgw1JECJRFbTA7S9L_kriidg6XASZsvBJWkrHNUWjpi-_YId2E2eReZt88';
 
     window.blazorPushNotifications = {
         requestSubscription: async () => {

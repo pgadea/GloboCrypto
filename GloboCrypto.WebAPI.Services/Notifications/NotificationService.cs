@@ -100,6 +100,5 @@ namespace GloboCrypto.WebAPI.Services.Notifications
         {
             return await Task.Run(() => LocalDb.All<NotificationSubscription>());
         }
-
     }
 }
