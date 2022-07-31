@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Error.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Error.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Proxy" Version="0.2.0" />
     <PackageReference Include="MudBlazor" Version="6.0.12" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
@@ -15,10 +24,6 @@
   <ItemGroup>
     <ProjectReference Include="..\GloboCrypto.Models\GloboCrypto.Models.csproj" />
     <ProjectReference Include="..\GloboCrypto.WebAPI.Services\GloboCrypto.WebAPI.Services.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Pages\" />
   </ItemGroup>
 
 </Project>
